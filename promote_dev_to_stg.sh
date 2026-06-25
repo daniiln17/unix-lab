@@ -7,4 +7,3 @@ git merge dev -m "Merge dev into stg"
 TAG_NAME="dev-stg-$(date +%Y%m%d-%H%M%S)"
 git tag $TAG_NAME
 echo "Перенос завершен. Тег: $TAG_NAME"
-
